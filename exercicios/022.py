@@ -1,0 +1,6 @@
+nome =str(input('Digite seu nome: '))
+print('Analisando seu nome...')
+print('Seu nome em maiusculas é', nome.upper())
+print('Seu nome em minusculas é', nome.lower())
+nome_novo=(nome.replace(' ', ''))
+print('Seu nome tem {} letras'.format(len(nome_novo)))
