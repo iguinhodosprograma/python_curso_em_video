@@ -2,7 +2,7 @@ from random import randint
 import time
 print("ESCOLHA UM DADO PARA ROLAR\n")
 print("d4, d6, d10, d12, d20, d100")
-dado = int(input("APENAS ESCREVA A NUMERAÇÃO DO DADO "))
+dado = int(input("ESCREVA APENAS A NUMERAÇÃO DO DADO "))
 segundo = 3
 while segundo > 0:
     print("-"*33,segundo,"-"*33)
